@@ -1,0 +1,32 @@
+{
+    "device": [
+    ],
+    "bulb": [
+        {
+            "deconzId": "2",
+            "deconzResource": {
+                "state": [
+                    "battery",
+                    "on",
+                    "reachable",
+                    "tholddark",
+                    "tholddark"
+                ]
+            },
+            "oneM2MResource": {
+                "deviceclass": "deviceLight",
+                "deviceResourceName": "Bulb1",
+                "moduleclass": [
+                    "binarySwitch",
+                    "faultDetection",
+                    "colourSaturation",
+                    "colour",
+                    "brightness"
+                ],
+                "subscribed_moduleclass": [
+                    "binarySwitch"
+                ]
+            }
+        }
+    ]
+}
